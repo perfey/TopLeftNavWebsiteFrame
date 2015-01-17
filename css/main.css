@@ -4,15 +4,13 @@ body {
 h1,.h1,h2,.h2,h3,.h3,h4,.h4,.lead {
     font-family: Helvetica,Arial,"Microsoft YaHei","WenQuanYi Micro Hei",sans-serif
 }
-.body-home {
-    background-color: #FFFFFF;
-    max-width: 1400px;
-    min-width: 1024px;
-    margin: 0 auto;
-    position: relative; 
+.content {
+    background-color: #ffffff;
+    text-align: center;
+    height: 1000px;
+    margin-left: 0px;
+    position: relative;
 }
-
-/**顶部导航**/
 .top-nav .navbar-inner {
     height: 64px;
     line-height: 64px;
@@ -33,16 +31,12 @@ h1,.h1,h2,.h2,h3,.h3,h4,.h4,.lead {
 .left-nav {
     position: absolute;
     left: 0;
-    top: 65px;
-    width: 0;
-    display: none;
+    top: 64px;
+    width: 300px;
 }
 .left-nav .nav-list li {
     line-height: 46px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.086);
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.086);    
 }
 .left-nav .nav-list li.nav-header {
     line-height: 50px;
@@ -55,23 +49,8 @@ h1,.h1,h2,.h2,h3,.h3,h4,.h4,.lead {
     display: none;
 }
 
-/**内容**/
-.right-body {
-    margin-left: 0px;
-    margin-top: 10px;
-}
-.main-content {
-    width: 100%;
-    margin: 0 auto;
-    background-color: #ffffff;
-    text-align: center;
-    height: 1000px;
-}
-
 
 /**底部**/
 .footer {
     text-align: center;
-    background-color: #919191;
-    height: 40px;
 }
